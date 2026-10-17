@@ -6,6 +6,8 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 inputs;
     private Vector2 direccionFinal;
+    [SerializeField] private Animator animator;
+    private bool isWalking = false;
 
     void Start()
     {
@@ -18,6 +20,16 @@ public class Movement : MonoBehaviour
         inputs.x = Input.GetAxisRaw("Horizontal"); // A / D
         inputs.y = Input.GetAxisRaw("Vertical");   // W / S
 
+        if (direccionFinal.magnitude > 0 && !isWalking)
+        {
+            isWalking = true;
+            animator.SetBool("IsWalking", true);
+        }
+        else if (direccionFinal.magnitude == 0 && isWalking)
+        {
+            isWalking = false;
+            animator.SetBool("IsWalking", false);
+        }
         // Creamos el vector de movimiento directo
         direccionFinal = new Vector2(inputs.x, inputs.y);
 
@@ -28,6 +40,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+    
     void FixedUpdate()
     {
         // Aplica el movimiento en línea recta (X horizontal, Y vertical)
