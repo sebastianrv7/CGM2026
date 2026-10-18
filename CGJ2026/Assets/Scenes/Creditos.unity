@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: tatiana castaneda ardila
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -315,8 +315,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sebastian ramirez valencia
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -452,8 +452,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Atras
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -589,8 +589,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: osvaldo zapata puerta
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -878,8 +878,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Programador & game design & level disign
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1015,8 +1015,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Angela rosales mondragon
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1152,8 +1152,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Creditos
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1418,8 +1418,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'ART & animation '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1692,8 +1692,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1986,8 +1986,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'ART & animation '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2256,8 +2256,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ui & game design & level disign &  sound
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
+  m_sharedMaterial: {fileID: 8535057037711702003, guid: 5c3c5a84ba83a414691a1dd20449aa15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

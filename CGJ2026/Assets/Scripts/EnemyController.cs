@@ -22,6 +22,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private GameObject flor;
     [SerializeField] private Movement movement;
 
+    [SerializeField] private Animator burakAnimator;
+
 
     void Start()
     {
@@ -167,5 +169,7 @@ public class EnemyController : MonoBehaviour
     {
         flor.SetActive(true);
     }
+
+
 
 }
