@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 public class BurakController : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class BurakController : MonoBehaviour
 
     [Header("Configuración de la Embestida (Dash)")]
     [SerializeField] private float velocidadEmbestida = 15f;
+
+    [SerializeField] private AudioSource frase;
     [SerializeField] private float duracionEmbestida = 0.25f; // Cuánto tiempo dura el impulso
 
     private Transform targetJugador;
@@ -63,6 +66,7 @@ public class BurakController : MonoBehaviour
                 break;
 
             case EstadoEnemigo.Embestiendo:
+                frase.Play();
                 burakAnimator.SetBool("Prepair", false);
                 burakAnimator.SetBool("Attack", true);
                 rb.MovePosition(rb.position + direccionEmbestida * velocidadEmbestida * Time.fixedDeltaTime);
