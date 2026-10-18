@@ -13562,6 +13562,9 @@ MonoBehaviour:
   velocidadPersiguiento: 5
   velocidadEmbestida: 30
   duracionEmbestida: 0.25
+  spriteRenderer: {fileID: 0}
+  flor: {fileID: 0}
+  movement: {fileID: 0}
 --- !u!61 &849386605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13803,6 +13806,7 @@ MonoBehaviour:
   dashCooldown: 1
   animator: {fileID: 967974284}
   spriteRenderer: {fileID: 1879950390}
+  canvasAnimator: {fileID: 0}
 --- !u!50 &967974286
 Rigidbody2D:
   serializedVersion: 5
@@ -56561,7 +56565,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

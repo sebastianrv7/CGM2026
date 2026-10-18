@@ -279,7 +279,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1417,6 +1417,7 @@ MonoBehaviour:
   dashCooldown: 1
   animator: {fileID: 1043918351}
   spriteRenderer: {fileID: 1955999901}
+  canvasAnimator: {fileID: 0}
 --- !u!50 &1043918353
 Rigidbody2D:
   serializedVersion: 5
