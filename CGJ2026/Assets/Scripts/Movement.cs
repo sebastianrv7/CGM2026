@@ -17,6 +17,7 @@ public class Movement : MonoBehaviour
 
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Animator canvasAnimator;
 
     private Vector2 inputs;
     private Vector2 direccionFinal;
@@ -62,7 +63,7 @@ public class Movement : MonoBehaviour
             {
                 spriteRenderer.flipX = false;
             }
-            if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+            if (Input.GetKeyDown(KeyCode.LeftShift)|| Input.GetKeyDown(KeyCode.RightShift)|| Input.GetKeyDown(KeyCode.Space) && canDash)
             {
                 // Guardamos la dirección actual del movimiento para el impulso
                 direccionDash = direccionFinal;
@@ -110,5 +111,10 @@ public class Movement : MonoBehaviour
         // Espera el tiempo de recarga antes de poder usarlo otra vez
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
+    }
+
+    public void Death()
+    {
+        canvasAnimator.SetBool("Death", true);
     }
 }

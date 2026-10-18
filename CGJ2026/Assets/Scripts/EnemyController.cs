@@ -16,13 +16,17 @@ public class EnemyController : MonoBehaviour
 
     private Transform targetJugador;
     private Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     private Vector2 direccionEmbestida;
+
+    [SerializeField] private GameObject flor;
+    [SerializeField] private Movement movement;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        
     }
 
     void Update()
@@ -130,6 +134,7 @@ public class EnemyController : MonoBehaviour
             yield return null;
         }
 
+        ActivateItem();
         Destroy(gameObject);
     }
 
@@ -148,6 +153,7 @@ public class EnemyController : MonoBehaviour
         // o reproducir un sonido antes de hacer desaparecer al jugador.
 
         // Destruye el objeto del jugador de la escena
+        movement.Death();
         Destroy(objetoJugador);
 
         // Como el jugador ya no existe, hacemos que el enemigo vuelva a estar inactivo
@@ -155,6 +161,11 @@ public class EnemyController : MonoBehaviour
         estadoActual = EstadoEnemigo.Inactivo;
         StopAllCoroutines();
         rb.linearVelocity = Vector2.zero;
+    }
+
+    private void ActivateItem()
+    {
+        flor.SetActive(true);
     }
 
 }
