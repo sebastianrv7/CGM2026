@@ -10,6 +10,7 @@ public class SiguienteEscena : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(nombreEscena);
+         
         }
     }
 }
