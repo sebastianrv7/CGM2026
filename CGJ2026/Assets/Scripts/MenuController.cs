@@ -5,7 +5,7 @@ public class MenuController : MonoBehaviour
 {
   public void CambiarEscena(string niveles)
     {
-        SceneManager.LoadScene("Nivel3");
+        SceneManager.LoadScene(niveles);
     }
 
   public void salir()
