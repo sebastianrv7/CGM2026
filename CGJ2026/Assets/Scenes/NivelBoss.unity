@@ -12963,7 +12963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BurakController
   velocidadPersiguiento: 4
   velocidadEmbestida: 30
-  frase: {fileID: 0}
+  frase: {fileID: 166743128}
   duracionEmbestida: 0.25
   spriteRenderer: {fileID: 580702214}
   flor: {fileID: 0}
